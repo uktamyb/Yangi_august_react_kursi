@@ -1,15 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Body from './body';
-import Card from './card';
-import Navbar from './navbar';
-import Sidebar from './sidebar';
-// import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
-  <React.StrictMode>
+const Racing = () => {
+  return (
     <div className='container'>
+      <div className='main'>
       <div className='left-side'>
         <div className='logo'></div>
         <div className='menu'></div>
@@ -20,10 +13,10 @@ ReactDOM.render(
       <div className='right-side'>
 
       </div>
+      </div>
+      
     </div>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  );
+};
 
-
-
+export default Racing;
