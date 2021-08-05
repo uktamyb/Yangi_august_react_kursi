@@ -5,25 +5,26 @@ import Body from './body';
 import Card from './card';
 import Navbar from './navbar';
 import Sidebar from './sidebar';
-// import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='container'>
-      <div className='left-side'>
-        <div className='logo'></div>
-        <div className='menu'></div>
-        <div className='sheduled-races'></div>
-        <div className='driver'></div>
+    <div className="container">
+      <div className="left_bar">
+        <Sidebar />
       </div>
-
-      <div className='right-side'>
-
+      
+      <div className="right_bar">
+        
+        <Navbar />
+        <Card />
+        <Body />
       </div>
     </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
 
 
 
