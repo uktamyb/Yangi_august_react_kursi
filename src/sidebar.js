@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './index.css'
+import './index.css';
+import home from './home.png';
 
 export default class sidebar extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class sidebar extends Component {
         <div className="menu">
           <h5>Menu</h5>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#"><img src={home} alt='home'></img>Home</a></li>
             <li><a href="#">Garage</a></li>
             <li><a href="#">Service Menu</a></li>
             <li><a href="#">Racers</a></li>

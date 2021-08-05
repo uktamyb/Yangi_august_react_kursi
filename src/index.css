@@ -14,11 +14,18 @@ a {
   font-size: 7px;
 }
 
+img {
+  width: 12px;
+  margin-right: 10px;
+}
+
 ul {
   list-style-type: none;
   text-align: left;
   padding-left: 0;
 }
+
+
 
 
 h5 {
