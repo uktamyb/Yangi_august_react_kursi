@@ -9,9 +9,16 @@
 
 .logo-wrapper {
   display: flex;
+  align-items: center;
 }
 
 .logo-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+}
+
+.logo {
+  width: 26px;
+  height: 26px;
+  margin-right: 11px;
 }

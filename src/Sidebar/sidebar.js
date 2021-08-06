@@ -1,4 +1,3 @@
-import { Divider } from '@material-ui/core';
 import React, { Component } from 'react';
 import './sidebar.css';
 import logo from '../img/logo.png';
