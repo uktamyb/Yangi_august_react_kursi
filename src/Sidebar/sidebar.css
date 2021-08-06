@@ -15,10 +15,30 @@
 .logo-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #304858;
 }
 
 .logo {
   width: 26px;
   height: 26px;
   margin-right: 11px;
+}
+
+.menu {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3629B7;
+}
+
+.sheduled-races {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3629B7;
+  margin-top: 70px;
 }
