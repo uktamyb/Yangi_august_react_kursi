@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import './index.css'
+import React, { Component } from 'react'
 
 export default class body extends Component {
   render() {
     return (
-      <div className="body">
+      <div>
         Body
       </div>
     )
