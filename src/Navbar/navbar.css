@@ -1,31 +1,58 @@
 .nav-container {
-  height: 97px;
+  height: 67px;
   border: 1px solid red;
   display: flex;
+  align-items: center;
+  
+  
 }
 
 .search { 
   position: relative; 
-  margin: 0 auto ;
+  /* margin: 0 auto ; */
   text-align: center;
 }
 
 .search .search-icon { 
   position: absolute;
-  top: 22px;
+  top: 30px;
   left: 5%;
-  width: 25px;
+  width: 35px;
 }
 
 .search input { 
-  text-indent: 30px;
+  text-indent: 50px;
   font-family:  FontAwesome, sans-serif;
 }
 
+.choose { 
+  position: relative; 
+  /* margin: 0 auto; */
+  text-align: center;
+}
+
+.choose .arrow-icon { 
+  position: absolute;
+  top: 40px;
+  left: 80%;
+  width: 30px;
+}
+
+.choose input { 
+  text-indent: 20px;
+  font-family:  FontAwesome, sans-serif;
+  width: 250px;
+  opacity: 80%;
+}
+
 input {
-  width: 450px;
+  width: 520px;
   padding: 5px;
   margin: 15px;
-  height: 25px;
-  outline:none
+  height: 48px;
+  outline:none;
+  font-size: 12px;
+  opacity: 40%;
+  top: 28px;
+  left: 278px;
 }
