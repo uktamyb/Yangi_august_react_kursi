@@ -3,3 +3,12 @@
   justify-content: space-around;
   margin: 0 113px;
 }
+
+.body-car {
+  width: 1201px;
+}
+
+.body-char {
+  width: 1201px;
+  display: flex;
+}

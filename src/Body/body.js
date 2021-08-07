@@ -10,6 +10,7 @@ import Lock from '../Card/img/lock.png';
 
 import arrowL from './img/arrow-left.png';
 import arrowR from './img/arrow-right.png';
+import Car from './img/Car.png';
 
 export default class body extends Component {
   render() {
@@ -25,22 +26,27 @@ export default class body extends Component {
         </div>
 
         <div className="body-center">
-          <div className="car-top">
-            <div className="car-text">
-              <p className="renault">
-                Infinity Renault {"&trade;"}
-              </p>
+          <div className="body-car">
+            <div className="car-top">
+              <div className="car-text">
+                <p className="renault">
+                  Infinity Renault {"&trade;"}
+                </p>
+                
+              </div>
+              <div className="arrow-boxes">
+                <img src={arrowL} alt="left-arrow" className="left-arrow" />
+                <img src={arrowR} alt="right-arrow" className="right-arrow" />
+              </div>
               
-            </div>
-            <div className="arrow-boxes">
-              <img src={arrowL} alt="left-arrow" className="left-arrow" />
-              <img src={arrowR} alt="right-arrow" className="right-arrow" />
-            </div>
-            
 
+            </div>
+            <div className="car">
+              <img src={Car} alt="car" className="car-img" />  
+            </div>
           </div>
-          <div className="car">
-
+          <div className="body-chart">
+            
           </div>
         </div>
         
